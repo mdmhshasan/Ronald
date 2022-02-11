@@ -1,0 +1,121 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width:414px) and (max-width: 767px) {
+  
+  /* CSS */
+header{
+width: 0%;
+}
+.banner-content p{
+width: 300px!important;
+display: inline-block;
+color: #fff!important;
+}
+.banner-content h2{
+display:block;
+color: #fff!important;
+font-size: 20px!important;
+}
+.product-item{
+grid-template-columns: 0!important;
+display: flex!important;
+flex-wrap: wrap!important;
+object-fit: cover!important;
+}
+
+.product-item .item-box img{
+width: 170px!important;
+height: 170px!important;
+}
+
+.p-left{
+width: 400px!important;
+}
+.product-item .item-box{
+gap: 0!important;
+width: 170px!important;
+height: 170px!important;
+margin: 10px;
+}
+.mix-menu ul li{
+margin-left: -9px!important;
+}
+.testimonial-content .t-box{
+margin-top: 10px;
+}
+.paget-title p{
+margin: 0!important;
+padding: 0;
+}
+.f-box ul li{
+display: inline-block!important;
+}
+.futher-content .f-item{
+margin-top: 10px;
+}
+
+
+
+
+
+
+
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  /* CSS */
+  
+}

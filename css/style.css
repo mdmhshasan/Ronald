@@ -1,0 +1,476 @@
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+*/
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+header{
+width: 100%;
+padding: 0px 0px;
+box-shadow: 0 0 5px #eee;
+}
+.main-menu .collapse ul{
+margin-right: 16px!important;
+}
+.navbar-brand{
+font-weight: 900;
+text-transform: capitalize;
+}
+.nav-item{
+margin: 0px 5px;
+}
+.nav-item .nav-link{
+font-family: 'Open Sans', sans-serif;
+color: #000!important;
+font-size: 14px;
+font-weight: 600;
+text-transform: uppercase;
+vertical-align: middle;
+}
+.nav-item .nav-link.active{
+color: #A7CB00!important;
+}
+.search span{
+font-size: 20px;
+font-weight: 900;
+color: #000;
+}
+/* section 2 start  */
+.banner{
+width: 100%;
+height: 100vh;
+background: url('../images/team-3.png');
+background-position: center;
+background-repeat:no-repeat;
+background-size: cover;
+background-blend-mode: soft-light;
+}
+.banner-content{
+display: table-cell;
+vertical-align: middle;
+height: 70vh;
+}
+.banner-content p{
+font-size: 13px;
+font-weight: 400;
+color: #fff;
+text-transform: uppercase;
+font-family: 'Open Sans', sans-serif;
+word-spacing: 5px;
+display: inline-block;
+}
+.banner-content h2{
+font-size: 30px;
+text-transform: uppercase;
+font-weight: 900;
+color: #000;
+letter-spacing: 1px;
+font-family: 'Poppins', sans-serif;
+line-height: 50px;
+}
+.banner-content p{
+width: 625px;
+display: inline-block;
+color: #000;
+}
+.banner-content .banner-btn{
+padding-top: 30px;
+}
+.banner-content .banner-btn button{
+border: none;
+border-radius: 5px;
+padding: 15px 30px;
+font-size: 16px;
+text-transform: uppercase;
+letter-spacing: 1px;
+text-align: center;
+margin-left: 0;
+color: #fff;
+font-weight: 600;
+}
+.banner-btn a .btn1{
+background: #a7cb00;
+}
+.banner-btn a .btn2{
+background: rgb(255,255,255,.3);
+backdrop-filter: blur(5px);
+border: 1px solid rgb(255,255,255,.4);
+}
+/* section 2 end  */
+/* section 3 start hre */
+.futher{
+width: 100%;
+padding: 90px 0px;
+}
+.paget-title h2{
+font-size: 45px;
+font-weight: bolder;
+color: #000;
+display: inline-block;
+text-transform: capitalize;
+padding: 40px 0px;
+}
+.paget-title p{
+font-size: 16px;
+text-transform: capitalize;
+color: #000;
+padding: 10px 0px;
+display: inline-block;
+margin-right: 160px;
+line-height: 25px;
+font-family: 'Poppins', sans-serif;
+}
+.futher-content {
+padding: 50px 0px;
+}
+.futher-content .f-item{
+box-shadow: 0 0 10px #eee;
+background: #fff;
+padding: 25px;
+border: 1px solid #eee;
+text-align: left;
+border-radius: 10px;
+}
+.futher-content .f-item span h4{
+display: inline-block;
+margin-left: 10px;
+text-transform: capitalize;
+font-family: 'Poppins', sans-serif;
+}
+.f-item span ion-icon {
+font-size: 30px ;
+color: #a7cb00;
+font-weight: bolder;
+margin-right: 5px;
+}
+.f-item p{
+padding: 20px 0px;
+text-transform: capitalize;
+color: #000;
+font-weight: 300;
+line-height: 24px;
+font-family: 'Poppins', sans-serif;
+}
+/* section 3 start here *
+/* SECTION 4 START HRER */
+.process{
+width: 100%;
+padding: 40px 0px;
+}
+.p-left{
+padding: 60px;
+box-shadow: 0 0 10px #eee;
+border-radius: 10px;
+background: #fff;
+width: 500px;
+height: 340px;
+position: relative;
+top: 30px;
+overflow-y: scroll;
+}
+.p-left::-webkit-scrollbar{
+width: 0;
+}
+.accordion-button {
+font-weight: bolder;
+font-size: 30px;
+text-transform: capitalize;
+}
+.accordion-flush .accordion-item .accordion-button{
+background: #eee;
+border-radius: 5px;
+}
+/* section 5 start here */
+.projact{
+padding: 100px 0;
+}
+.mixbox{
+padding: 10px;
+}
+.mixbox .paget-title h2{
+font-size: 30px;
+padding: 0;
+}
+.mixbox .paget-title p{
+width: 100%;
+display: block;
+}
+.mix-menu {
+padding: 10px 0px;
+}
+.mix-menu ul li{
+display: inline-block;
+padding: 0px 10px ;
+margin: 0px 5px;
+list-style: none;
+text-transform: capitalize;
+font-size: 16px;
+font-weight: 400;
+padding: 10px;
+cursor: pointer;
+}
+.mix-menu ul li.active{
+color: #a7cb00;
+background: #eee;
+transition: .5s ease-in-out;
+transition-duration: .5s;
+animation-duration: .5s;
+}
+.product-item{
+position: relative;
+padding-top:50px ;
+display: grid;
+grid-template-columns: auto auto auto auto;
+object-fit: cover;
+}
+.product-item .item-box{
+width: 240px;
+height: 240px;
+overflow: hidden;
+gap: 5px;
+opacity: 1;
+transition: .5s ease-in-out;
+transition-duration: .5s;
+animation-duration: .5s;
+}
+.product-item .item-box.hide{
+display: none;
+opacity: 1;
+transition: .5s ease-in-out;
+transition-duration: .5s;
+animation-duration: .5s;
+}
+.product-item .item-box.active{
+display: block;
+opacity: 1;
+transition: .5s ease-in-out;
+transition-duration: .5s;
+animation-duration: .5s;
+}
+.product-item .item-box img{
+width: 230px;
+height: 230px;
+border: 2px solid #eee;
+border-radius: 10px;
+transition-duration: .5s;
+cursor: pointer;
+}
+.product-item .item-box img:hover{
+transform: rotate(40deg) scale(1.5);
+}
+/* testimonial */
+.testimonial{
+padding: 60px 0px;
+width: 100%;
+}
+.testimonial-content .t-box{
+padding: 10px 20px;
+box-shadow: 0 0 10px #eee;
+background: #fff;
+border: 2px solid #eee;
+border-radius: 5px;
+text-align: left;
+}
+.testimonial-content .t-box.box:first-of-type{
+padding: 45px ;
+}
+.t-box p{
+font-style: italic;
+padding-top: 10px;
+}
+.t-box h4:first-child{
+font-weight: bolder;
+}
+.t-box h4{
+padding: 5px 0 10px 0;
+font-size: 20px;
+text-transform: capitalize;
+letter-spacing: 1px;
+}
+.t-box span ion-icon{
+color: #fbc531;
+font-weight: 900;
+font-size: 20px;
+}
+/* enginear */
+.enginear{
+padding: 40px 0px;
+width: 100%;
+}
+.enginear .paget-title{
+padding: 20px 0px;
+}
+.enginear .paget-title h2{
+padding: 0;
+font-size: 30px;
+}
+.e-content{
+padding: 30px 0px;
+}
+.e-content .e-box{
+padding: 15px 5px;
+text-align: center;
+box-shadow: 0 0 10px #eee,0 0 5px rgba(0, 0, 0,.08);
+}
+.e-box img{
+border-top-right-radius: 5px;
+border-top-left-radius: 5px;
+}
+.e-box h3{
+padding-top: 15px;
+font-size: 18px;
+text-transform: capitalize;
+color: #000;
+font-weight: 900;
+}
+.e-box p{
+text-transform: capitalize;
+font-size: 15px;
+font-weight: 600;
+color: #000;
+}
+/* our-blog */
+.our-blog{
+padding: 50px 0px;
+width: 100%;
+}
+.our-blog .paget-title {
+padding: 0;
+}
+.our-blog .paget-title h2{
+padding: 0;
+}
+.blog-content{
+padding: 20px 0px;
+}
+.blog-content .b-box{
+padding: 10px;
+}
+.blog-content .b-box .blog-text{
+padding: 10px 0px;
+}
+.b-box .blog-text h4{
+text-transform: capitalize;
+font-size: 20px;
+display: inline-block;
+padding: 20px 0px;
+width: 100%;
+font-weight: bolder;
+}
+/* foooter banner */
+.footer-banner{
+width: 100%;
+background: url('../images/shoe3.jpg');
+background-repeat:no-repeat ;
+background-position: center;
+background-size: cover;
+padding: 50px 0px;
+text-align: center;
+}
+.fb-content{
+text-align: center;
+padding: 10px 0px;
+}
+.fb-content .fb-box h1{
+font-size: 25px;
+text-transform: capitalize;
+color: #fff;
+font-weight: 900;
+padding: 10px 0px;
+text-align: center;
+}
+.fb-box p{
+color: #fff;
+text-transform: capitalize;
+font-weight: 400;
+font-size: 16px;
+padding: 10px 0px;
+}
+.fb-box .fb-btn button{
+border: none;
+background: #21f123;
+padding: 15px 30px ;
+font-size: 15px;
+text-align: center;
+font-weight: 600;
+cursor: pointer;
+text-transform: capitalize;
+letter-spacing: 1px;
+color: #fff;
+border-radius: 5px;
+}
+/* footer */
+footer{
+width: 100%;
+padding: 80px 0;
+background: #333;
+}
+.footer-content .f-box{
+padding: 5px;
+}
+.f-box h3{
+font-size: 17px;
+text-align: left;
+text-transform: capitalize;
+color: #fff;
+font-weight: 600;
+padding-bottom: 20px;
+}
+.f-box ul li{
+list-style: none;
+line-height: 50px;
+padding: 0!important;
+margin: 0!important;
+padding-left: 0;
+}
+.f-box ul {
+padding: 0;
+}
+.f-box ul li a{
+margin: 0;
+padding: 0;
+display: block;
+font-size: 16px;
+color: #bbb;
+text-transform: capitalize;
+text-decoration: none;
+}
+.f-box ul li a:hover{
+color: #fff;
+}
+.f-box ul li a span{
+margin-left: 5px;
+}
+.f-box.fbox p{
+color: #fff;
+text-align: left;
+}
+.f-box .search{
+border: none;
+background: none;
+color: #fff;
+font-size: 15px;
+text-decoration: none;
+border-radius: 5px;
+display: inline-block;
+margin-top: 10px;
+padding: 5px 10px;
+border: 1px solid #fff;
+}
+.f-box .f-btn{
+border: none;
+color: #fff;
+padding: 10px 20px;
+border-radius: 5px;
+background: #21f123;
+font-size: 15px;
+text-transform: capitalize;
+}
+.f-box.fbox2 p{
+color: #fff;
+text-transform: capitalize;
+text-align: left;
+}
